@@ -42,7 +42,7 @@
 
             var addListener = function () {
                 $(document).on('click', '.closeEmoji', function(){
-                    self.$panel.hide();
+                    $('#emoji-dropdown').modal('hide');
                 });
                 $(document).on('click', '.selectEmoji', function(){
                     var img = new Image();
