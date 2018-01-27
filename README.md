@@ -4,6 +4,7 @@
 使用方法如下
 引入src中的summernote-ext-emoji.js（注意要放在summernote核心js文件后面）
 
+```javascript
 document.emojiSource = '../pngs/'; //表情图片所在目录
 $('#summernote').summernote({
   toolbar: [
@@ -11,7 +12,7 @@ $('#summernote').summernote({
 		['code', ['codeview']]
 	]
 });
-
+```
 --------------------------------------------
 
 # Summernote emoji plugin
